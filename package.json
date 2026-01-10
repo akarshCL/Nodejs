@@ -1,0 +1,17 @@
+{
+  "name": "nodeclassday1",
+  "version": "1.0.0",
+  "description": "Its will have the user Module where user can see the dashboard only when user ois loged in Auth module",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}

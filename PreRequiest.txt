@@ -1,0 +1,17 @@
+JS:
+Variable: var, let and const;
+Functions
+dataTypes: strimg, array,object,etc...
+Async/schn. => EC 
+ES6+ features
+
+
+Web Developemnt : 
+
+HTTP: request and response 
+
+Module: export and import 
+
+HTTP status, methods: Get , Put/Patch, Delete, Post,>> CRUD OPERATION 
+
+HTTP STATUS: 

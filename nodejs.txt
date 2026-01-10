@@ -1,0 +1,19 @@
+Nodejs: Open _source, Crossplatform, JS Runtime environment built in v8 engine that executes the code outside a web browser.
+
+
+What is single Threaded an dasycnh in nature
+
+
+npm >>> Node package manager>>> 
+
+after this we have to install express so that we can use the extra feature in building server/ APIS
+
+>> u will get 1 folder node modules, index, package.json, lock 
+>> small
+
+nodemon >> auto save and run the server sutomatically 
+
+
+Express>> It i s a framework which built in top of the nodejs>>
+
+its>> 

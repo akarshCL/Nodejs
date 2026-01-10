@@ -1,0 +1,3 @@
+>>> Initiate the npm Package 
+npm init.>>> this will create ur package.json file.
+after that we have to make a entry file >> index.js
