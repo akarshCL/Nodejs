@@ -1,0 +1,49 @@
+show dbs>>>> which will give us the all active database
+
+use database_Name >>> it will switch toi that database
+
+for creating a collection into a databse 
+>> db.createCollection("collection Name");
+
+
+for storing a single document into the collection we have to use one query called as insertOne({});
+
+for example:
+
+db.collectionName.insertOne({
+    name:"akarsh",
+    age:27,
+    mob:534543
+})
+
+
+db.collectionName.insertMany([{
+    name:"akarsh",
+    age:27,
+    mob:534543
+}])
+// this we say as creation  crud>> create read update delete
+
+// get
+
+
+db.collectionName.find(). >>> this will give u all the document what are stored in collection. >>> read
+
+db.collectionName.find({name:"akarsh}). >>> filter or find a  record by a condition.
+
+db.collectionName.findOne({name:"Akarsh"}). >>> used to find a single document.  
+
+
+for updatimng any record>>
+
+updateOne({object is a find the data key value}, {object is to set the data or update the prev data})
+
+db.collectionName.updateOne({name:"akarsh"},{ $set:{age:28} })
+
+db.emplyee.updateMany({name:"akarsh"},{$set:{age:30}})for multiple records update >> to active multiple records at a same time
+
+
+db.collectionName.deleteOne({name:"akarah"})
+
+db.collectionName.deleteMany({age:50})
+

@@ -1,4 +1,4 @@
-const { userDetails, fetchDetail, userLogin, userSignup } = require("./userController");
+const { userDetails, fetchDetail, userLogin, userSignup, singleUserDetail, searchParameter } = require("./userController");
 
 const router=require("express").Router();
 
@@ -10,5 +10,7 @@ router.get("/userdetails",userDetails);
 router.get("/fetchdetail",fetchDetail)
 router.post("/login",userLogin) //
 router.post("/signup",userSignup)
+router.get("/singleUserDetail/:id",singleUserDetail)
+router.get("/searchParameter",searchParameter)
 // http://localhost:3000/api/login 
 module.exports=router;
